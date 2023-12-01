@@ -74,6 +74,7 @@ Use the below format to the test the API (replace the API Endpoint with the one 
 ```bash
 curl -d '{"input": "I love AWS Services."}' -H 'Content-Type: application/json' https://<abcdefg>.execute-api.<region>.amazonaws.com/DetectSentiment`
 ```
+```
 {
     "Sentiment": "POSITIVE",
     "Confidence Score": {
